@@ -1,0 +1,30 @@
+﻿Build started 11/4/2016 11:33:57 PM.
+     1>Project "D:\Git Projects\GraphCompressor\GraphCompressor\GraphCompressor.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt MatchDetector.cpp MatchMakingResult.cpp main.cpp
+         MatchDetector.cpp
+     1>d:\git projects\graphcompressor\graphcompressor\MatchDetector.h(5): warning C4103: 'd:\git projects\graphcompressor\graphcompressor\matchdetector.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>MatchDetector.cpp(1): warning C4103: 'd:\git projects\graphcompressor\graphcompressor\matchdetector.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
+         Generating Code...
+         Compiling...
+         main.cpp
+         MatchMakingResult.cpp
+     1>MatchMakingResult.cpp(1): warning C4103: 'd:\git projects\graphcompressor\graphcompressor\matchmakingresult.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>MatchMakingResult.cpp(14): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Git Projects\GraphCompressor\x64\Debug\GraphCompressor.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Git Projects\GraphCompressor\x64\Debug\GraphCompressor.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Git Projects\GraphCompressor\x64\Debug\GraphCompressor.lib" /MACHINE:X64 x64\Debug\CompressedData.obj
+         x64\Debug\DataCompressor.obj
+         x64\Debug\FinalNode.obj
+         x64\Debug\FinalNodeDif.obj
+         x64\Debug\main.obj
+         x64\Debug\MatchDetector.obj
+         x64\Debug\MatchMakingResult.obj
+         x64\Debug\Node.obj
+         x64\Debug\NodeDif.obj
+         GraphCompressor.vcxproj -> D:\Git Projects\GraphCompressor\x64\Debug\GraphCompressor.exe
+     1>Done Building Project "D:\Git Projects\GraphCompressor\GraphCompressor\GraphCompressor.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.45
